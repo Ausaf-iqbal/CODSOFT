@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .page{
+        box-sizing: border-box;
+    }
+
+
+    .main{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(76, 109, 109);
+        position: sticky;
+        top: 0;
+        height: 40px;
+    }
+
+
+    .navbar{
+        background-color: rgb(76, 109, 109);
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbar ul {
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        padding: 10px;
+    }
+
+    .navbar a{
+        text-decoration: none;
+        color: honeydew;
+        font-size: x-large;
+    }
+
+    a:hover{
+        background-color: grey;
+        color: black;
+    }
+
+    .navbar2{
+        background-color: rgb(76, 109, 109);
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbar2 ul {
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbar2 ul li {
+        list-style: none;
+        padding: 10px;
+    }
+
+    .navbar2 a{
+        text-decoration: none;
+        color: honeydew;
+    }
+
+    .image {
+        position: relative;
+        text-align: center;
+    }
+
+    .bottom {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: honeydew;
+    }
+
+    .projectpic{
+    }
+
+    .pic1{
+        padding: 4px;
+    }
+
+
+    .container {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .about{
+        
+    }
+
+    #id{
+        padding: 10px 10px 10px 10px;
+    }
+
+    .aboutpic1 {
+        width: 24%;
+        
+    }
+
+    .aboutpic2 {
+        width: 24%;
+        
+    }
+
+    .aboutpic3 {
+        width: 24%;
+        
+    }
+
+    .aboutpic4 {
+        width: 24%;
+        
+    }
+
+    .contactbtn{
+        background-color: rgb(241, 239, 239);
+        color: black;
+        padding-left: 42%;
+        padding-right: 42%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .container a{
+        text-decoration: none;
+    }
+
+    .searchbox{
+        width: 98%;
+        height: 90%;
+        margin: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .button {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+
+    .map{
+        margin: 30px;
+        margin-right: 30px;
+    }
+
+    .footer{
+        background-color: black;
+        display: flex;
+        color: blanchedalmond;
+        justify-content: center;
+    }
+
+    h5{
+        font-size: 20px;
+        color: grey;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .navbar2{
+            display: none;
+        }
+
+        .pic1{
+            width: 100%;
+        }
+
+        .container{
+            display: inline-block;
+            overflow: auto;
+        }
+
+        .aboutpic1{
+            width: 100%;
+            overflow: auto;
+        }
+
+        .aboutpic2{
+            width: 100%;
+            overflow: auto;
+        }
+
+        .aboutpic3{
+            width: 100%;
+            overflow: auto;
+        }
+
+        .aboutpic4{
+            width: 100%;
+            overflow: auto;
+        }
+    }
+
+    
+</style>
+
+
+
+
+<body>
+    <div class="page">
+        <div class="main">
+
+            <div class="navbar">
+                <ul>
+                    <li><a href="#"><b>HR  </b> Architects</a></li>
+                </ul>
+            </div>
+
+            <div class="navbar2">
+                <ul>
+                    <li><a href="#project">project</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>   
+            </div>
+
+        </div>
+        
+
+        <div class="image">
+            <img src="./architect.jpg" width="100%">
+            <div class="bottom">
+                <h1>BUILDERS</h1>
+            </div>
+        </div>
+
+
+
+        <h5 id="project">PROJECT</h5>
+        <div class="projectpic">
+            
+            <img class="pic1" src="./house12.jpg" width="24%">
+            <img class="pic1" src="./house2.jpg" width="24%">
+            <img class="pic1" src="./house4.jpg" width="24%">
+            <img class="pic1" src="./house3.jpg" width="24%">
+            <img class="pic1" src="./house11.jpg" width="24%">
+            <img class="pic1" src="./house12.jpg" width="24%">
+            <img class="pic1" src="./house13.jpg" width="24%">
+            <img class="pic1" src="./house14.jpg" width="24%">
+
+        </div>
+
+
+        <div class="about">
+            <h5 id="about">ABOUT</h5>
+            <p id="id"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</b></p>
+        </div>
+
+1
+        <div class="container">
+
+            <div class="aboutpic1">
+                <img src="./team1.jpg" width="100%">
+                <h2>John Doe</h2>
+                <h5>CEO & Founder</h5>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <a href="#" class="contactbtn">Contact</a>
+            </div>
+
+            <div class="aboutpic2">
+                <img src="./team2.jpg" width="100%">
+                <h2>John Doe</h2>
+                <h5>Architect</h5>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <a href="#" class="contactbtn">Contact</a>
+            </div>
+
+            <div class="aboutpic3">
+                <img src="./team3.jpg" width="100%">
+                <h2>Mike Ross</h2>
+                <h5>Architect</h5>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <a href="#" class="contactbtn">Contact</a>
+            </div>
+
+            <div class="aboutpic4">
+                <img src="./team4.jpg" width="100%">
+                <h2>Dan Star</h2>
+                <h5>Architect</h5>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <a href="#" class="contactbtn">Contact</a>
+            </div>
+
+
+        </div>
+
+        <div class="contact">
+            <h5 id="contact">CONTACT</h5>
+            <b>LET's get in touch and talk about your next project.</b></br>
+            <input class="searchbox" type="text" placeholder="NAME" >
+            <input class="searchbox" type="text" placeholder="EMAIL" >
+            <input class="searchbox" type="text" placeholder="SUBJECT" >
+            <input class="searchbox" type="text" placeholder="COMMENT" >
+            <a href="#" class="button">SEND MESSAGE</a>
+        </div>
+
+        <div class="map">
+            <img src="./map.jpg" width="100%">
+        </div>
+
+        <div class="footer">
+            <p>Powered by <a href="#">@!_!$@F</a></p>
+        </div>
+
+
+        <style>
+            body {
+        background-color:black;
+        }
+        p
+        {
+            color: white;
+            font-size: 10;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <p>M.Ausaf Iqbal (2019-CS-139) ipsum dolor sit amet consectetur, adipisicing elit. Earum provident aliquid recusandae blanditiis
+            perspiciatis reprehenderit! Accusantium nemo minus voluptatum optio totam tempora quasi dolorem illum omnis!
+            Soluta quis aperiam eveniet sapiente, hic repudiandae ullam beatae odio, modi dolorum iste debitis voluptatem
+            culpa doloribus repellat. Consequuntur natus totam assumenda nam labore?</p>
+    </body>
+
+
+
+    </div>
+    
+</body>
+</html
